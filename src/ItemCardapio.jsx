@@ -1,5 +1,4 @@
-import { enroladinhoMignon } from "./cardapio";
-
+/* eslint-disable react/prop-types */
 export function ItemCardapio(props){
     return <div className="container-item-cardapio">
         <div>
