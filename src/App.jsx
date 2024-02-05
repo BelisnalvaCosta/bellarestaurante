@@ -1,5 +1,5 @@
 import { React } from "react";
-import { Bellarestaurante } from "./assets/bellarestaurante.jpeg";
+import bellarestaurante from "./assets/bellarestaurante.webp";
 import './App.css';
 import { Navegacao } from "./Navegacao";
 import { ItemCardapio } from "./ItemCardapio";
@@ -12,7 +12,7 @@ function App(){
 
   return (
     <> 
-    <img src={Bellarestaurante} className="capa"></img>
+    <img src={bellarestaurante} className="capa"></img>
 
     <Navegacao atualizarPaginaSelecionada = {atualizarPaginaSelecionada}/>
     <div className="menu">
@@ -21,7 +21,7 @@ function App(){
       nome={item.nome} 
       descricao={item.descricao} 
       preco={item.preco}       
-      imagem={item.imagem}
+      image={item.imagem}
       />
       ))}
     </div>
